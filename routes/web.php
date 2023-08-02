@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $technologies = [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'Vue',
+        'Vite',
+        'Axios',
+        'PHP',
+        'MySQL',
+        'Laravel'
+    ];
+    return view('home', compact('technologies'));
 });
