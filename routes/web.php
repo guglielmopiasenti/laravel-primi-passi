@@ -31,9 +31,9 @@ Route::get('/', function () {
 Route::get('/technologies', function(){
     return view('technologies.html');
 });
-Route::get('/technologies', function(){
+Route::get('/technologies2', function(){
     return view('technologies2.css');
 });
-Route::get('/technologies', function(){
+Route::get('/technologies3', function(){
     return view('technologies3.javascript');
 });
