@@ -7,6 +7,11 @@
     <title>Home</title>
 </head>
 <body>
+    <nav>
+        <a href="technologies">HTML</a>
+        <a href="technologies2">CSS</a>
+        <a href="technologies3">JS</a>
+    </nav>
     <h1>
         HELLO LARAVEL
     </h1>

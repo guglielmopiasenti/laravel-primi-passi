@@ -27,3 +27,13 @@ Route::get('/', function () {
     ];
     return view('home', compact('technologies'));
 });
+
+Route::get('/technologies', function(){
+    return view('technologies.html');
+});
+Route::get('/technologies', function(){
+    return view('technologies2.css');
+});
+Route::get('/technologies', function(){
+    return view('technologies3.javascript');
+});
